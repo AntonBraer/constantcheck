@@ -19,5 +19,5 @@ go get -u github.com/AntonBraer/constantcheck@latest
 ### Usage
 
 ```
-./nakedefer ./...
+./constantcheck ./...
 ```
