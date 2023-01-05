@@ -3,7 +3,7 @@ package main
 import (
 	"golang.org/x/tools/go/analysis/singlechecker"
 
-	"constantcheck/pkg/analyzer"
+	"github.com/AntonBraer/constantcheck/pkg/analyzer"
 )
 
 func main() {
