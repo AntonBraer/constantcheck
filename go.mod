@@ -1,4 +1,4 @@
-module constantcheck
+module github.com/AntonBraer/constantcheck
 
 go 1.17
 
