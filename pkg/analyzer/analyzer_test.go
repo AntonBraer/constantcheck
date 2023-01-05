@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/tools/go/analysis/analysistest"
 
-	"github.com/AntonBraer/constantcheck/pkg/analyzer"
+	"constantcheck/pkg/analyzer"
 )
 
 func TestAll(t *testing.T) {
