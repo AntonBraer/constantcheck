@@ -66,7 +66,7 @@ import (
 	"fmt"
 )
 
-const customError = "myImportantError"
+const CustomError = "myImportantError"
 
 func Ping() error{
 	fmt.Println("Pong")
@@ -75,9 +75,10 @@ func Ping() error{
 ```
 </td>
 </tr>
-</table><br>
+</table>
 
-After checking the linter, we should get an error that we can use
-a constant from `helps` package with name `customError`
+After checking the linter, we should get an error that we can use a constant from 
+`helps` package with name `CustomError`
+
 ---
 I couldn't show it in tests because there is some problem with imports in testing. But the linter parses ALL imported packages of the file.
