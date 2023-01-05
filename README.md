@@ -81,4 +81,4 @@ After checking the linter, we should get an error that we can use a constant fro
 `helps` package with name `CustomError`
 
 ---
-I couldn't show it in tests because there is some problem with imports in testing. But the linter parses ALL imported packages of the file.
+I couldn't show it in tests because there is some problem with imports in testing. But the linter parses ALL imported packages of the file, not just standard ones
