@@ -75,7 +75,7 @@ func Ping() error{
 ```
 </td>
 </tr>
-</table>
+</table><br>
 
 After checking the linter, we should get an error that we can use
 a constant from `helps` package with name `customError`
